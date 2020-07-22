@@ -30,8 +30,8 @@
  docker rm -f xxxx
 ## for docker create by docker-compose.yml
  docker-compose down 
-   removes the containers and default network, but preserves your WordPress database.
+ removes the containers and default network, but preserves your WordPress database.
 
  docker-compose down --volumes 
-   removes the containers, default network, and the WordPress database.
+ removes the containers, default network, and the WordPress database.
 
